@@ -1,0 +1,3 @@
+1.值得注意的是 thisAmount 变量开始变得多余，因为他接受 each.getCharge() 的执行结果之后， 不会再有任何的改变，
+  所以作者运用 Replace Temp with Query 手法， 将 thisAmount 除去, 尽管除去之后，each.getCharge() 被调用了两次，牺牲了性能。
+但是这样做  利大于弊
