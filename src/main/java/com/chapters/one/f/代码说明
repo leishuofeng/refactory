@@ -1,0 +1,10 @@
+1.提炼积分累计计算部分的代码
+			// 每借一张加1个积分点
+			frequentRenterPoints++;
+			// 积分累加条件：新版本的片子，借的时间大于1天
+			if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE) && each.getDaysRented() > 1) {
+				frequentRenterPoints++;
+			}
+2.查看局部变量
+	each 被用到了， 可以将它当做参数传递给新函数 , 搬移， 修改变量  与 one a b c d e 中参考方法
+	frequentRenterPoints 被用到了， 使用之前已经被赋予初值， 将新方法的返回值累加进 frequentRenterPoints 便可。
