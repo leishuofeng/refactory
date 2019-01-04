@@ -1,15 +1,14 @@
 /**
  * 
  */
-package com.chapters.one;
+package com.chapters.one.a;
 
 /**   
  * @ClassName:  Rental   
  * @Description:TODO(租赁类)   
- * @author: leisf@saiwish.com 
- * @date:   2019年1月4日 下午2:10:15   
- *     
- * @Copyright: 2019 www.sailwish.com Inc. All rights reserved.  
+ * @author: leishuofeng@aliyun.com 
+ * @date:   2019年1月4日    
+ *      
  */
 public class Rental {
 	private Movie movie;              //租赁的影片

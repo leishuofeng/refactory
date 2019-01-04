@@ -1,0 +1,10 @@
+1.找出  com.chapters.one.a.Customer 类中的逻辑泥团 运用 Extract Method 方法重构
+
+2.逻辑泥团就是  Customer.statement() 方法中的 switch 语句，把它提炼到独立的函数中似乎比较好。
+
+3.找出函数内部的局部变量和参数。 each , thisAmount ,任何不会被修改的变量都可以被当成参数传入新的函数，
+  至于被修改的变量，需要格外小心，如果只有一个变量被修改，可以把它当做返回值。
+  
+ 
+ 
+备注： Extract 提取

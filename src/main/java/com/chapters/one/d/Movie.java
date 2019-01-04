@@ -1,12 +1,11 @@
-package com.chapters.one;
+package com.chapters.one.d;
 
 /**   
  * @ClassName:  test   
  * @Description:TODO(电影类)   
- * @author: leisf@saiwish.com 
- * @date:   2019年1月4日 下午2:09:17   
- *     
- * @Copyright: 2019 www.sailwish.com Inc. All rights reserved.  
+ * @author: leishuofeng@aliyun.com 
+ * @date:   2019年1月4日   
+ *       
  */
 public class Movie {
 

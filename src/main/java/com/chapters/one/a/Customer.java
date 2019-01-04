@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.chapters.one;
+package com.chapters.one.a;
 
 import java.util.Enumeration;
 import java.util.Vector;
@@ -9,10 +9,9 @@ import java.util.Vector;
 /**
  * @ClassName: Customer
  * @Description:TODO(顾客类)
- * @author: leisf@sailwish.com
- * @date: 2019年1月4日 下午2:17:21
+ * @author: leishuofeng@aliyun.com
+ * @date: 2019年1月4日 
  * 
- * @Copyright: 2019 www.sailwish.com Inc. All rights reserved.
  */
 public class Customer {
 
