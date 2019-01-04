@@ -33,12 +33,19 @@ public class Customer {
 		return name;
 	}
 
-	// 添加租赁信息
+	
+	/**
+	 * 添加影片
+	 * @param rental
+	 */
 	public void addRental(Rental rental) {
 		rentals.addElement(rental);
 	}
 
-	// 打印详单方法
+	/**
+	 * 打印详单方法
+	 * @return
+	 */
 	public String statement() {
 		// 总金额
 		double totalAmount = 0;
