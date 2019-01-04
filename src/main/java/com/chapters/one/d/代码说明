@@ -1,2 +1,3 @@
 1.发现 Customer.amountFor() 方法使用了  Rental 类的信息， 却没有使用 Customer 类的信息，作者立刻怀疑代码的位置是否放错了，
 绝大多数情况下， 方法应该放在它所使用的数据的所属对象内，所以 amountFor() 方法应该被移到 Rental 类中去，  使用 Move Method 手法
+
