@@ -16,7 +16,7 @@ import java.util.Vector;
 public class Customer {
 
 	/**
-	 * @Fields name : TODO(名称)
+	 * @Fields name : TODO(名称) 
 	 */
 	private String name;
 
