@@ -1,0 +1,8 @@
+1.运用多态取代与价格相关的条件逻辑
+
+ 最后运用 Replace Condition with polymorphism 去掉 switch 语句  --这里在com.chapters.one.i包中进行
+
+多态，通过 extends AbstractPrice 类的子类，进行重写计算价格方法，达到每种类型片子的计价方式自己定义，
+抽象类中默认的积分规则，被新片重写，实现新片自己的独有规则，这样达到去掉 switch 语句的目的，
+switch 语句的目的就是区分 对象的类型，现在通过继承抽象类，重写父类方法的方式去掉了
+
