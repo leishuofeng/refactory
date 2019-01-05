@@ -1,0 +1,19 @@
+1.运用多态取代与价格相关的条件逻辑
+
+2.最好不要在另一个对象的属性基础上运用switch 语句。如果不得不使用，也应该在对象自己的数据上使用， 
+而不是在别人的数据上使用，随意将 Rental 类中的 getCharge() , getFrequentRenterPoints() 应该移到 Movie 类中去
+
+3.Movie 类是容易变化的，将方法搬进 movie 类 是为了 movie的变化造成的影响， 所以选择在movie类中进行费用计算 
+
+4.state模式运用，取代switch语句，运用Replace Type Code with State/Strategy,将与类型相关的行为搬移至State模式内。
+ 然后运用 Move Method 将switch语句搬移到 Price 类中，
+ 
+ 最后运用 Replace Condition with polymorphism 去掉 switch 语句  --这里在com.chapters.one.i包中进行
+
+ ******已经懵逼********
+ 
+ 
+ 
+ 备注： state 状态
+  	   strategy  策略
+  	   polymorphism 多态
