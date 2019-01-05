@@ -1,0 +1,7 @@
+1.临时变量会助长冗长而复杂的函数
+
+2.去除临时变量，replace temp with query 手法， 
+利用查询函数 来取代 totalAmount 和 frequentRentalPoints 这两个临时变量，
+
+3.总的来说，就是将临时变量抽取成一个 查询函数，临时变量会助长冗长的而复杂的函数
+replace temp with query
