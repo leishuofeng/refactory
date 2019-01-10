@@ -41,7 +41,8 @@ public class exampleA {
 	void printOwingAfter() {
 		Enumeration e = _orders.elements();
 		double outStanding = 0.0;
-
+		
+		// 无局部变量，被抽取成一个打印函数，通过调用方法的手法，使程序结构更加清晰
 		printBanner();
 
 		// calculate outStanding
