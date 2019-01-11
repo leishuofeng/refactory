@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.chapters.sixth.a;
+package com.chapters.sixth.extractMethod.a;
 
 import java.util.Enumeration;
 

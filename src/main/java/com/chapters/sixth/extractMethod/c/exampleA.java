@@ -1,4 +1,4 @@
-package com.chapters.sixth.c;
+package com.chapters.sixth.extractMethod.c;
 public class exampleA {
 
 	/**
